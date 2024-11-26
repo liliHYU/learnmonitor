@@ -1,5 +1,5 @@
 datasource db {
-    provider = "mysql"
+    provider = "sqlite"
     // url      = "mysql://root:123456@localhost:3306/text"
     url      = "libsql://liqiuqiu-lilihyu.aws-us-west-2.turso.io"
 }
@@ -27,7 +27,7 @@ model Session {
     stay_time  Int
     terminal   String
     language   String
-    events     String   @db.LongText
+    events     String   
     etime      DateTime
     ltime      DateTime
     ctime      DateTime @default(now()) @updatedAt
@@ -41,12 +41,12 @@ model Log {
     sub_type      String
     session_id    String
     ascription_id String
-    breadcrumb    String   @db.VarChar(255)
-    data          String   @db.LongText
+    breadcrumb    String  
+    data          String   
     path          String
     page_title    String
     platform      String
-    user_agent    String   @db.VarChar(255)
+    user_agent    String  
     language      String
 }
 
