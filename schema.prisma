@@ -1,6 +1,6 @@
 datasource db {
     provider = "sqlite"
-    url = "file:liqiuqiu-lilihyu.aws-us-west-2.turso.io"
+    url = "file:liqiuqiu-lilihyu.aws-us-west-2.turso.io?eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxbzV5UmF2WkVlLU8xWUp0QkVRQ1p3In0.qnIFcik6TFlHLcK6eQQ4C7eHybBhazQyQhJ6zcVDcvKRuuGk640ozw6jtseEPMgOrpsmrmM2mEdeqh3Oy-wuAQ"
 }
 
 generator client {
