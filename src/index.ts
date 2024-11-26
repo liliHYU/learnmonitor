@@ -22,6 +22,6 @@ app.use(router);
 
 getUseablePort().then((port) => {
   app.listen(port, '0.0.0.0', () => {
-    console.log(`server running on localhost:${port}`);
+    console.log(`server running on ${port}`);
   });
 });
