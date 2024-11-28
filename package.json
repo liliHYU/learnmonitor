@@ -16,7 +16,6 @@
     "access": "public"
   },
   "scripts": {
-    "start": "node server.js",
     "dev": "ts-node src/index.ts",
     "prisma": "npx prisma db push --schema ./schema.prisma",
     "build": "npm-run-all reset compile",

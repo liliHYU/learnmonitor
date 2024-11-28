@@ -21,7 +21,7 @@ app.use(expressIp().getIpInfoMiddleware);
 app.use(router);
 
 getUseablePort().then((port) => {
-  app.listen(port, '0.0.0.0', () => {
+  app.listen(port, () => {
     console.log(`server running on ${port}`);
   });
 });
