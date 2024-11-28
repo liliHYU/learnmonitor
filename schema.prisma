@@ -1,6 +1,6 @@
 datasource db {
-    provider = "sqlite"
-    url = "file:liqiuqiu-lilihyu.aws-us-west-2.turso.io"
+    provider = "mysql"
+    url = "mysql://fontend_digsuppose:95f0bd7c3c754dc8b777f6496440f78617831d86@5nu0n.h.filess.io:3307/fontend_digsuppose"
 }
 
 generator client {
