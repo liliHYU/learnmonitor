@@ -20,4 +20,3 @@ npm run prisma
 npm run dev
 ```
 
-（确保 3306 端口未被占用）
