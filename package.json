@@ -18,7 +18,7 @@
   "scripts": {
     "dev": "ts-node src/index.ts",
     "prisma": "npx prisma db push --schema ./schema.prisma",
-    "build": "npm-run-all reset compile",
+    "build": "echo 'No build step required",
     "compile": "tsc",
     "reset": "rimraf dist/*"
   },
