@@ -16,8 +16,8 @@ router.get('/project/list', projList);
 router.get('/statistic/total', statisticTotalGet);
 router.get('/statistic/proj', statisticProjGet);
 
-router.post('/log/upload', logPostUpload);
-router.get('/log/upload', logGetUpload);
+router.post('/log/report', logPostUpload);
+router.get('/log/report', logGetUpload);
 router.get('/log/list', logList);
 router.get('/log/detail', logDetail);
 

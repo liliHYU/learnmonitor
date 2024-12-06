@@ -2,15 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "src/index.ts",
-      "use": "@vercel/node"
+      "src": "index.ts",
+      "use": "@vercel/node",
+      "config": {
+        "prisma": "npx prisma db push --schema ./schema.prisma"
+      }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "src/index.ts",
-      "methods": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+      "dest": "index.ts"
     }
+
   ]
 }

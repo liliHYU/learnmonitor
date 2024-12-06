@@ -4,17 +4,18 @@
     "module": "commonjs", // 指定生成代码的模板标准
     "sourceMap": false,
     "outDir": "./dist",
-    "rootDir": "./src", // 指定输出目录, 默认是dist文件夹
+    "rootDir": "", // 指定输出目录, 默认是dist文件夹
     "strict": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution":"node"
   },
   // 需要编译的的文件和目录
   "include": [
     "src"
-  ],
+, "index.ts"  ],
   "exclude": [
     "node_modules",
     "dist",

@@ -2,7 +2,7 @@ import { failResponse, generateUUID, isMobileDevice, successResponse } from '../
 import ProjModel from '../models/projModel';
 import LogModel from '../models/logModel';
 import BreadCrumbModel from '../models/breadcrumbModel';
-import { BreadCrumb, IPInfo, LogItem, DeviceType, EventTypes, PageLifeType, RecordTypes } from '../types';
+import { BreadCrumb, IPInfo, LogItem, DeviceType, EventTypes, PageLifeType, RecordTypes } from '../types/index';
 import SessionModel from '../models/sessionModel';
 
 const TAG = '[logCtrl]:';
